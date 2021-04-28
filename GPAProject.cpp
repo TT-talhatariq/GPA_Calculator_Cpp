@@ -14,6 +14,7 @@ int main(){
 	float *ratio = new float[input];
 	string *grade = new string[input];
 
+	//Loop for Asking Data
 	for (int x=0; x<input; x++){
 			cin.ignore();
 		cout<<"Enter the name of "<<x+1<<"th subject :";
